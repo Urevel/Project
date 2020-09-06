@@ -1,0 +1,34 @@
+﻿Сборка начата 02.05.2020 2:44:23.
+     1>Проект "C:\Users\НАСТЯ\source\repos\кучи\кучи\кучи.vcxproj" в узле 2 (целевые объекты Build).
+     1>PrepareForBuild:
+         Создание каталога "C:\Users\НАСТЯ\source\repos\кучи\Debug\".
+         Создание каталога "Debug\кучи.tlog\".
+       InitializeBuildStatus:
+         Создание "Debug\кучи.tlog\unsuccessfulbuild", так как было задано "AlwaysCreate".
+       ClCompile:
+         D:\Новая папка\VC\Tools\MSVC\14.22.27905\bin\HostX86\x86\CL.exe /c /ZI /JMC /nologo /W3 /WX- /diagnostics:column /sdl /Od /Oy- /D _UNICODE /D UNICODE /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /permissive- /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\" /Fd"Debug\vc142.pdb" /Gd /TP /analyze- /FC /errorReport:prompt Source.cpp Source1.cpp
+         Source.cpp
+         Source1.cpp
+     1>C:\Users\НАСТЯ\source\repos\кучи\кучи\Source.cpp(63,1): warning C4326:  возвращаемый тип "main" должен быть "int", а не "void"
+         Создание кода...
+     1>C:\Users\НАСТЯ\source\repos\кучи\кучи\Source1.cpp(113,28): warning C4244:  =: преобразование "double" в "int", возможна потеря данных
+       Link:
+         D:\Новая папка\VC\Tools\MSVC\14.22.27905\bin\HostX86\x86\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\НАСТЯ\source\repos\кучи\Debug\кучи.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG:FASTLINK /PDB:"C:\Users\НАСТЯ\source\repos\кучи\Debug\кучи.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\НАСТЯ\source\repos\кучи\Debug\кучи.lib" /MACHINE:X86 Debug\Source.obj
+         Debug\Source1.obj
+         кучи.vcxproj -> C:\Users\НАСТЯ\source\repos\кучи\Debug\кучи.exe
+       FinalizeBuildStatus:
+         Файл "Debug\кучи.tlog\unsuccessfulbuild" удаляется.
+         Обращение к "Debug\кучи.tlog\кучи.lastbuildstate".
+     1>Сборка проекта "C:\Users\НАСТЯ\source\repos\кучи\кучи\кучи.vcxproj" завершена (целевые объекты Build).
+
+Сборка успешно завершена.
+
+       "C:\Users\НАСТЯ\source\repos\кучи\кучи\кучи.vcxproj" (целевой объект Build ) (1) ->
+       (Целевой объект ClCompile) -> 
+         C:\Users\НАСТЯ\source\repos\кучи\кучи\Source.cpp(63,1): warning C4326:  возвращаемый тип "main" должен быть "int", а не "void"
+         C:\Users\НАСТЯ\source\repos\кучи\кучи\Source1.cpp(113,28): warning C4244:  =: преобразование "double" в "int", возможна потеря данных
+
+    Предупреждений: 2
+    Ошибок: 0
+
+Прошло времени 00:00:18.65

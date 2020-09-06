@@ -1,0 +1,6 @@
+﻿  Source.cpp
+  Source1.cpp
+D:\ОАП второй сем\LABA13\кучи\кучи\Source.cpp(63,1): warning C4326:  возвращаемый тип "main" должен быть "int", а не "void"
+  Создание кода...
+D:\ОАП второй сем\LABA13\кучи\кучи\Source1.cpp(113,28): warning C4244:  =: преобразование "double" в "int", возможна потеря данных
+  кучи.vcxproj -> D:\ОАП второй сем\LABA13\кучи\x64\Debug\кучи.exe
